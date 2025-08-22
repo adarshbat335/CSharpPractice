@@ -4,17 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        // This is an integer (for whole numbers)
-        int score = 100;
+        Console.WriteLine("Please enter the student's score (0-100):");
 
-        // This is a string (for text)
-        string playerName = "Adarsh";
+        // Read the score and convert it to a number
+        int score = Convert.ToInt32(Console.ReadLine());
 
-        // This is a boolean (for true or false)
-        bool isLevelComplete = true;
-
-        Console.WriteLine("Player: " + playerName);
-        Console.WriteLine("Score: " + score);
-        Console.WriteLine("Level Complete: " + isLevelComplete);
+        // Use an if-else statement to check if the score is a passing grade (50 or higher)
+        if (score >= 50)
+        {
+            Console.WriteLine("Result: Pass");
+        }
+        else
+        {
+            Console.WriteLine("Result: Fail");
+        }
     }
 }
