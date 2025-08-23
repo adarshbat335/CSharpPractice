@@ -6,6 +6,7 @@ class Program
     // The Main method is where the program starts executing.
     static void Main()
     {
+
         // --- Displaying Text to the Console ---
 
         // Console.WriteLine(): Displays text and then moves the cursor to the next line.
@@ -44,5 +45,6 @@ class Program
         Console.WriteLine("Your favorite alphabet is " + alphabet);
 
         //remember:the readline method returns an string and the read method returns an integer(ascii value of the character)
+
     }
 }
