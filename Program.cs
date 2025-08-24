@@ -1,8 +1,13 @@
 ﻿using System;
+
+
+
 class Program
 {
-    static void Main(string[] args)
+    // The Main method is where the program starts executing.
+    static void Main()
     {
+
         // for type casting follow this 
         //  Char To Int To Long To Float To Double(smaller to larger data type)
         // called as implicit casting(automatic-no data loss happens here)
@@ -22,6 +27,5 @@ class Program
         //to avoid this we can use braces so that it does the addition first and then 
         // concatenates the string in the beginning as follows
         Console.WriteLine("i will give:" + (Convert.ToInt32(Dairymilk) + 4));
-
     }
 }
